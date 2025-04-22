@@ -1,0 +1,142 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"AZ7svQwHtPguNNJiuJrMLmMsdyxvqPM0": {
+			"height": 72,
+			"title": "nota_ner34_tacticalai.followWind",
+			"width": 289,
+			"x": 894,
+			"y": 161
+		},
+		"BQIlbuKWuNporq4WvEbVuicNWwFcvWIy": {
+			"height": 182,
+			"title": "store",
+			"width": 421,
+			"x": 434,
+			"y": -29
+		},
+		"CL2O6rcYQ7IEgRaseOg0D9kA0WF2wJ0w": {
+			"height": 92,
+			"title": "nota_ner34_tacticalai.followLeaderInLine",
+			"width": 341,
+			"x": 889,
+			"y": 271
+		},
+		"D8qLLpP5LbBEalKKLgJXwnIWppV2EnY8": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 428,
+			"y": 218
+		},
+		"OdCReTNolY8qQleHqNVPAnE8GK3jtfsJ": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 597,
+			"y": 214
+		},
+		"RNuUxtsEpAWDdf5ydBj6TJ9A1Ebk9XgZ": {
+			"height": 182,
+			"title": "store",
+			"width": 403,
+			"x": 433,
+			"y": -205
+		},
+		"ftbNvCyFZ4ReUlWNDBC4Fa7w0nUC5QJZ": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 216,
+			"y": 10
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "RNuUxtsEpAWDdf5ydBj6TJ9A1Ebk9XgZ",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "leader"
+			}, {
+				"name": "value",
+				"value": "nota_ner34_tacticalai.GetLeaderUnitID(\"armmav\")"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "BQIlbuKWuNporq4WvEbVuicNWwFcvWIy",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "otherUnits"
+			}, {
+				"name": "value",
+				"value": "nota_ner34_tacticalai.GetUnitsOtherThen({leader})"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "AZ7svQwHtPguNNJiuJrMLmMsdyxvqPM0",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unit",
+						"value": "leader"
+					}, {
+						"name": "scriptName",
+						"value": "nota_ner34_tacticalai.followWind"
+					} ],
+					"scriptName": "nota_ner34_tacticalai.followWind"
+				}, {
+					"children": [],
+					"id": "CL2O6rcYQ7IEgRaseOg0D9kA0WF2wJ0w",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "leader",
+						"value": "leader"
+					}, {
+						"name": "unitsToFollow",
+						"value": "otherUnits"
+					}, {
+						"name": "scriptName",
+						"value": "nota_ner34_tacticalai.followLeaderInLine"
+					} ],
+					"scriptName": "nota_ner34_tacticalai.followLeaderInLine"
+				} ],
+				"id": "OdCReTNolY8qQleHqNVPAnE8GK3jtfsJ",
+				"nodeType": "parallel",
+				"parameters": [ {
+					"name": "mode",
+					"value": "any-result"
+				} ]
+			} ],
+			"id": "D8qLLpP5LbBEalKKLgJXwnIWppV2EnY8",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "ftbNvCyFZ4ReUlWNDBC4Fa7w0nUC5QJZ",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

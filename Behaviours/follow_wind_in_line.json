@@ -34,15 +34,15 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 428,
-			"y": 218
+			"x": 707,
+			"y": 199
 		},
 		"OdCReTNolY8qQleHqNVPAnE8GK3jtfsJ": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 597,
-			"y": 214
+			"x": 447,
+			"y": 215
 		},
 		"RNuUxtsEpAWDdf5ydBj6TJ9A1Ebk9XgZ": {
 			"height": 182,
@@ -50,6 +50,13 @@
 			"width": 403,
 			"x": 433,
 			"y": -205
+		},
+		"XUE5U2obCct7SXSrNYOj8VeqDN39zYUB": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 704,
+			"y": 263
 		},
 		"ftbNvCyFZ4ReUlWNDBC4Fa7w0nUC5QJZ": {
 			"height": 60,
@@ -108,7 +115,12 @@
 						"value": "nota_ner34_tacticalai.followWind"
 					} ],
 					"scriptName": "nota_ner34_tacticalai.followWind"
-				}, {
+				} ],
+				"id": "D8qLLpP5LbBEalKKLgJXwnIWppV2EnY8",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
 					"children": [],
 					"id": "CL2O6rcYQ7IEgRaseOg0D9kA0WF2wJ0w",
 					"nodeType": "luaCommand",
@@ -124,16 +136,16 @@
 					} ],
 					"scriptName": "nota_ner34_tacticalai.followLeaderInLine"
 				} ],
-				"id": "OdCReTNolY8qQleHqNVPAnE8GK3jtfsJ",
-				"nodeType": "parallel",
-				"parameters": [ {
-					"name": "mode",
-					"value": "any-result"
-				} ]
+				"id": "XUE5U2obCct7SXSrNYOj8VeqDN39zYUB",
+				"nodeType": "repeat",
+				"parameters": []
 			} ],
-			"id": "D8qLLpP5LbBEalKKLgJXwnIWppV2EnY8",
-			"nodeType": "repeat",
-			"parameters": []
+			"id": "OdCReTNolY8qQleHqNVPAnE8GK3jtfsJ",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
 		} ],
 		"id": "ftbNvCyFZ4ReUlWNDBC4Fa7w0nUC5QJZ",
 		"nodeType": "sequence",

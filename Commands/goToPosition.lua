@@ -48,7 +48,7 @@ function Run(self, unitIds, parameter)
 	for id=1, #group do
 		local currX, currY, currZ = Spring.GetUnitPosition(group[id])
 		local currPos = Vec3(currX, 0, currZ)
-		if false == CheckUnitValid(unitID) then
+		if false == CheckUnitValid(group[id]) then
 			eliminated = eliminated + 1
 		elseif currPos:Distance(targetPos) > targetDist then
 			finished = false

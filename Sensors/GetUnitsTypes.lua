@@ -1,6 +1,6 @@
 local sensorInfo = {
 	name = "GetUnitsTypes",
-	desc = "Get units of definite type",
+	desc = "Get types of selected units",
 	author = "NER34",
 	date = "now",
 	license = "notAlicense",

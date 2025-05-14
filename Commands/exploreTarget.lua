@@ -1,7 +1,7 @@
 function getInfo()
 	return {
 		onNoUnits = FAILURE,
-		tooltip = "Asks cargo unit to unload units at position in range",
+		tooltip = "Send the last scout in group to check selected target. In case it get hit, retreat to the last safe location",
 		parameterDefs = {
 			{ 
 				name = "scouts",
@@ -29,17 +29,6 @@ function getInfo()
 		--	}
 		}
 	}
-end
-
-function CheckUnitValid(unitID)
-    if unitID == nil then return false end
-    if Spring.ValidUnitID(unitID) == false then
-        return false
-    end
-    if Spring.GetUnitHealth(unitID) <= 0 then
-        return false
-    end
-    return true
 end
 
 local inProgress = false

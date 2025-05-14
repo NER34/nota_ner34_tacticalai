@@ -14,14 +14,10 @@ function getInfo()
 	}
 end
 
--- local myTeamID = Spring.GetMyTeamID()
--- local myPlayerID = Spring.GetMyPlayerID()
-
 return function (unitTypeName)
 
 	local unitDef = UnitDefNames[unitTypeName]
 	if (unitDef == nil) then return nil end
-	--return unitDef.id
 	local leader = nil
 	for idx = 1, #units do
 		local unitDefID = Spring.GetUnitDefID(units[idx])

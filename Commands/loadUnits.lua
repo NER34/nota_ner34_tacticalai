@@ -37,17 +37,6 @@ function getInfo()
 	}
 end
 
-function CheckUnitValid(unitID)
-    if unitID == nil then return false end
-    if Spring.ValidUnitID(unitID) == false then
-        return false
-    end
-    if Spring.GetUnitHealth(unitID) <= 0 then
-        return false
-    end
-    return true
-end
-
 function Run(self, unitIds, parameter)
 
     local cargoUnit = parameter.cargoUnit
@@ -74,9 +63,6 @@ function Run(self, unitIds, parameter)
 	if finished then
 		return SUCCESS
 	end
-
-	-- Spring.Echo(tostring(out1))
-	-- Spring.Echo(tostring(out2))
 			
 	Spring.GiveOrderToUnit(
 		cargoUnit, CMD.LOAD_UNITS, 

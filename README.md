@@ -1,4 +1,4 @@
-nota_ner34_tacticalai 0.2
+nota_ner34_tacticalai 0.3
 ====
 
 Behaviours
@@ -6,6 +6,7 @@ Behaviours
 
 * Follow Wind In Line
 * Explore And Capture Hills
+* Resque Allies
 
 Commands
 ----
@@ -18,6 +19,8 @@ Commands
 * goToPosition
 * loadUnits
 * unloadUnits
+* loadTargets (special for ResqueAllies)
+* unloadTargets (special for ResqueAllies)
 
 Sensors
 ----
@@ -28,3 +31,10 @@ Sensors
 * GetUnitsOtherThen
 * GetUnitsTypes
 * ScanForHighGrounds
+* GetNextTargetPosition (special for ResqueAllies)
+* GetTargetsInfo (special for ResqueAllies)
+* GetTransportedUnits
+* GetUnitFuturePosition (special for ResqueAllies)
+* GetValidUnitFromGroup
+* GetVisibleTargets (special for ResqueAllies)
+* UpdateTargetsFilter (special for ResqueAllies)

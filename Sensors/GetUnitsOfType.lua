@@ -15,15 +15,12 @@ function getInfo()
 end
 
 return function (unitTypeName)
-
-	local unitDef = UnitDefNames[unitTypeName]
-	if (unitDef == nil) then return nil end
+	Spring.Echo(unitTypeName)
 	local outUnits = {}
 	for idx = 1, #units do
 		local unitDefID = Spring.GetUnitDefID(units[idx])
-		if (unitDefID == unitDef.id) then 
+		if (unitTypeName == UnitDefs[unitDefID].name) then 
 			table.insert(outUnits, units[idx])
-			break
 		end
 	end
 	return outUnits

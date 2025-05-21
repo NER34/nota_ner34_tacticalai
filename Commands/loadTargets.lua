@@ -36,6 +36,9 @@ function CheckUnitValid(unitID)
     return true
 end
 
+local timeout = 20
+local timer = 0
+
 function Run(self, unitIds, parameter)
 
     local cargoUnits = parameter.cargoUnits
@@ -62,6 +65,10 @@ function Run(self, unitIds, parameter)
 			currTargetID = currTargetID + 1
 		end
 	end
-	if finished then return SUCCESS end
+	if finished or timer > timeout then 
+		timer = 0
+		return SUCCESS 
+	end
+	timer = timer + 1
 	return RUNNING
 end

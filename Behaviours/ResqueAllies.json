@@ -104,7 +104,7 @@
 		"Gdktc9tTgh2ugUfyWrvzcAPCZqO4mLxj": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.unloadTargets",
-			"width": 293,
+			"width": 313,
 			"x": 2271,
 			"y": 221
 		},
@@ -125,7 +125,7 @@
 		"VtJxalIVu8Pd8graSLwUmL1eg5DZ9Ajb": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.loadTargets",
-			"width": 277,
+			"width": 297,
 			"x": 2286,
 			"y": 30
 		},
@@ -279,7 +279,7 @@
 				"value": "peeps"
 			}, {
 				"name": "value",
-				"value": "nota_ner34_tacticalai.GetUnitsOtherThen(atlases)"
+				"value": "nota_ner34_tacticalai.GetUnitsOfType(\"armpeep\")"
 			}, {
 				"name": "scriptName",
 				"value": "store"

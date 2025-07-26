@@ -1,4 +1,4 @@
-nota_ner34_tacticalai 0.3
+nota_ner34_tacticalai 0.4
 ====
 
 Behaviours
@@ -7,6 +7,7 @@ Behaviours
 * Follow Wind In Line
 * Explore And Capture Hills
 * Resque Allies
+* Swampdota
 
 Commands
 ----
@@ -21,6 +22,10 @@ Commands
 * unloadUnits
 * loadTargets (special for ResqueAllies)
 * unloadTargets (special for ResqueAllies)
+* artilleryAttackNoDeathCheck
+* moveUnitNoDeathCheck
+* buyUnit (special for Swampdota)
+* stopUnits
 
 Sensors
 ----
@@ -38,3 +43,12 @@ Sensors
 * GetValidUnitFromGroup
 * GetVisibleTargets (special for ResqueAllies)
 * UpdateTargetsFilter (special for ResqueAllies)
+* GetDefencePosition (special for Swampdota)
+* GetNextPointID (special for Swampdota)
+* GetPointPosition (special for Swampdota)
+* GetRadarPosition (special for Swampdota)
+* GetUnits
+* GetUnitsOfTypeFromGroup
+* GiveVisibleEnemyUnits
+* IsFullGroup
+* SortByDistance

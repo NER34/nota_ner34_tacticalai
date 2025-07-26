@@ -15,10 +15,10 @@ function getInfo()
 end
 
 
-return function ()
+return function (group)
 	local outUnits = {}
-	for idx = 1, #units do
-		local unitDefID = Spring.GetUnitDefID(units[idx])
+	for idx = 1, #group do
+		local unitDefID = Spring.GetUnitDefID(group[idx])
 		table.insert(outUnits, UnitDefs[unitDefID].name)
 	end
 	return outUnits

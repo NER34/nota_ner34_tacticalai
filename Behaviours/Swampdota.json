@@ -13,7 +13,7 @@
 			"height": 92,
 			"title": "store",
 			"width": 181,
-			"x": 2022,
+			"x": 2023,
 			"y": 616
 		},
 		"0f9f4YskFpoJATxKzPawAAFDd69StCY4": {
@@ -27,13 +27,13 @@
 			"height": 97,
 			"title": "store",
 			"width": 476,
-			"x": 3954,
+			"x": 3956,
 			"y": -12
 		},
 		"22BDPpsBQY4DSjchcnel1ghJwa3LCd33": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.buyUnit",
-			"width": 249,
+			"width": 269,
 			"x": 2240,
 			"y": -801
 		},
@@ -41,14 +41,14 @@
 			"height": 76,
 			"title": "wait",
 			"width": 133,
-			"x": 2642,
+			"x": 2643,
 			"y": -1298
 		},
 		"2NIsQ8s0lbZgMtrLKriFWI8HPEQzbE1V": {
 			"height": 97,
 			"title": "store",
 			"width": 466,
-			"x": 3953,
+			"x": 3955,
 			"y": -100
 		},
 		"5ynFTlXzOSL0yFW6zcWiumg09VkfOwzl": {
@@ -68,16 +68,16 @@
 		"7XEloYag71E7WjuiEjnWES6i1Hah1vEJ": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.buyUnit",
-			"width": 249,
+			"width": 269,
 			"x": 2243,
 			"y": -1068
 		},
 		"7eYIsiqWA206noYIpV1WsL1ZdlqH9eu4": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 3588,
-			"y": 625
+			"width": 377,
+			"x": 3668,
+			"y": 734
 		},
 		"7o9ugpFPGbVczzIIqNO96h4LLhuluPsn": {
 			"height": 60,
@@ -90,14 +90,14 @@
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 2039,
+			"x": 2040,
 			"y": -1017
 		},
 		"8aC3AmIF6FDif4GEJAah8q1eTOmgYCIH": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 2892,
+			"width": 377,
+			"x": 2893,
 			"y": 434
 		},
 		"9hekFwtkq7GYbSEyexDwin2iyajWaxg8": {
@@ -110,7 +110,7 @@
 		"APJVOYUskeq0DLhxlUy9GHkiKo2X9mYc": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.artilleryAttackNoDeathCheck",
-			"width": 382,
+			"width": 402,
 			"x": 2155,
 			"y": 163
 		},
@@ -132,14 +132,14 @@
 			"height": 76,
 			"title": "wait",
 			"width": 133,
-			"x": 2486,
+			"x": 2487,
 			"y": -747
 		},
 		"Ehh1V7joCOAG1X8A2OahdqwsmPuGWbr3": {
 			"height": 70,
 			"title": "sequence",
 			"width": 147,
-			"x": 3653,
+			"x": 3654,
 			"y": -19
 		},
 		"GJVg88JtpuPyix2qtOF3VRQSajHa7V96": {
@@ -153,21 +153,21 @@
 			"height": 95,
 			"title": "store",
 			"width": 458,
-			"x": 2869,
+			"x": 2870,
 			"y": -184
 		},
 		"InkfT5vzNatiVY3DjXQBLypheG5XA8TU": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2030,
+			"x": 2031,
 			"y": -702
 		},
 		"LCctPXmWQLEUqyaIh57tgbHm9FaLJ6XH": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 2015,
+			"x": 2016,
 			"y": 776
 		},
 		"MXSDVkEDHrRR00BG9bDMScpDHRZjZ0u3": {
@@ -191,13 +191,6 @@
 			"x": 2244,
 			"y": -1265
 		},
-		"NYhHnncZfF3MRx8U6Kvv6FdrG7jtkELx": {
-			"height": 60,
-			"title": "repeat",
-			"width": 131,
-			"x": 3398,
-			"y": 587
-		},
 		"NzGPQW5mZEPPFMLJOLhi4rhfpFh2UCQo": {
 			"height": 95,
 			"title": "store",
@@ -209,14 +202,14 @@
 			"height": 97,
 			"title": "store",
 			"width": 627,
-			"x": 2427,
+			"x": 2428,
 			"y": -82
 		},
 		"OTU2KZFycpOE4g6qlhTz3nHpngnJac7G": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 4310,
+			"width": 377,
+			"x": 4311,
 			"y": -275
 		},
 		"Pu8okiZAB7rMHbtpleghVC4g4NGPDiVV": {
@@ -236,8 +229,8 @@
 		"SFMLKL5S143skyDHu7Cc4v2Dwo3re4Zo": {
 			"height": 94,
 			"title": "store",
-			"width": 545,
-			"x": 3948,
+			"width": 653,
+			"x": 3950,
 			"y": 160
 		},
 		"SzbZNWU5HBK4uvBwUzOG4de5oNzYOXQM": {
@@ -264,14 +257,14 @@
 		"UBkgWpdiJhVe0RrECWJaWwb0uObw47XO": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 2544,
+			"width": 377,
+			"x": 2545,
 			"y": 347
 		},
 		"V1tLZIFw5SX7RgrwOI7AsEdYpb9lgoFg": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.buyUnit",
-			"width": 249,
+			"width": 269,
 			"x": 2246,
 			"y": -1354
 		},
@@ -292,8 +285,8 @@
 		"Z8298qL2hRZ8a17HkPnocbLGv9148goM": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 3956,
+			"width": 377,
+			"x": 3958,
 			"y": -212
 		},
 		"ZFWL58nM0SoFdhXS4PwR8dmiyn0LbdSl": {
@@ -306,22 +299,22 @@
 		"ay5TojkBoFP6FypOGD8ORfJfpnIuSQav": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.buyUnit",
-			"width": 249,
+			"width": 269,
 			"x": 2247,
 			"y": -1623
 		},
 		"caN5F0UkAcY8JvwAeSCzQjyGFfvAV8iB": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 3947,
+			"width": 377,
+			"x": 3949,
 			"y": 377
 		},
 		"dPt1v926DPxXzkRcJXXhVH6Q1LFiG6B3": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 3127,
+			"x": 3128,
 			"y": 576
 		},
 		"dp6DllvyfSsLKy4ExntqcslMl6BSYBa6": {
@@ -341,22 +334,22 @@
 		"g1Pz1QN9BJ9ogeRSUIXRGPASiHhiqNPF": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 3947,
+			"width": 377,
+			"x": 3949,
 			"y": 254
 		},
 		"g5QlWfkEvr2NWr2IlRpa3opINYhZ7d1X": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 3662,
+			"x": 3663,
 			"y": 320
 		},
 		"gAbafCSzDXbfwLTimECOwfWGkaFyMVbh": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2034,
+			"x": 2035,
 			"y": -1253
 		},
 		"hDwIKIkqsvbabNQ0gDnitOI89xO60gfs": {
@@ -384,21 +377,21 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 3664,
+			"x": 3665,
 			"y": 384
 		},
 		"nHwCtoVVhjH3aHRqhtS91y8u0I7M9FEw": {
 			"height": 72,
 			"title": "echo",
 			"width": 151,
-			"x": 2467,
+			"x": 2468,
 			"y": 782
 		},
 		"nWyUj1zgM3cg3yc7DiaTdLda2ZzEZJdb": {
 			"height": 76,
 			"title": "wait",
 			"width": 133,
-			"x": 2493,
+			"x": 2494,
 			"y": -1569
 		},
 		"o4XUPmtzTPto50JdMlwSdxi4nMjRdrt7": {
@@ -412,7 +405,7 @@
 			"height": 94,
 			"title": "store",
 			"width": 598,
-			"x": 2543,
+			"x": 2544,
 			"y": 257
 		},
 		"oXIhQhn6MYJ1foAr5oFHhs0X3ixC9ohP": {
@@ -426,7 +419,7 @@
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 2041,
+			"x": 2042,
 			"y": -1576
 		},
 		"pFPxmV5SBLEVwlYwWTI1bJpw3tGxAVUV": {
@@ -440,28 +433,28 @@
 			"height": 76,
 			"title": "wait",
 			"width": 133,
-			"x": 2640,
+			"x": 2641,
 			"y": -1014
 		},
 		"pkIwDMlWMfyiwK1JdQjrh8UExWOSmdqx": {
 			"height": 94,
 			"title": "store",
-			"width": 734,
-			"x": 3950,
+			"width": 644,
+			"x": 3952,
 			"y": 76
 		},
 		"powXpCiKb5vSdBFWOfQS4DVyz5vTBL8A": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 2034,
+			"x": 2035,
 			"y": -754
 		},
 		"q3VM4B7FZPAQP1QWfugRjPDJwukMG9Ha": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 2034,
+			"x": 2035,
 			"y": -1306
 		},
 		"qsIpJt6enV4Vd1bkiWrOexSSaOphCg2a": {
@@ -482,7 +475,7 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 3126,
+			"x": 3127,
 			"y": 78
 		},
 		"s2ObM1dfwm4j7SdeR4eAXpf1IzDrHldD": {
@@ -496,7 +489,7 @@
 			"height": 97,
 			"title": "store",
 			"width": 458,
-			"x": 2432,
+			"x": 2433,
 			"y": -185
 		},
 		"slqM3sjIHtJu2awDUdDJFJKgN111I02M": {
@@ -517,7 +510,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2037,
+			"x": 2038,
 			"y": -1524
 		},
 		"ungE625yyfRqvq4Gia106Vzf5zVdf6lT": {
@@ -530,23 +523,23 @@
 		"vMumkmHgO53KBB49iQumBVxpNEBbynMl": {
 			"height": 92,
 			"title": "nota_ner34_tacticalai.artilleryAttackNoDeathCheck",
-			"width": 382,
-			"x": 3556,
-			"y": 504
+			"width": 402,
+			"x": 3673,
+			"y": 523
 		},
 		"wMi1cSWDP8QkGSgyxXAzDWA1FpguI9Ce": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 3401,
-			"y": 649
+			"x": 3442,
+			"y": 758
 		},
 		"wfDu9jEHbQ3zXB3MU8p1JU38jaXIVDyX": {
 			"height": 128,
 			"title": "nota_ner34_tacticalai.moveUnitNoDeathCheck",
-			"width": 357,
-			"x": 3979,
-			"y": 563
+			"width": 377,
+			"x": 3670,
+			"y": 612
 		},
 		"xkQzhN0FmZozIdAxTch6Xylw8V0L4aR3": {
 			"height": 60,
@@ -566,7 +559,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2036,
+			"x": 2037,
 			"y": -967
 		},
 		"zGy000bXJLYWv6MFGGRtItMt62tMoqXj": {
@@ -1154,7 +1147,7 @@
 									"value": "mainTarget"
 								}, {
 									"name": "value",
-									"value": "nota_ner34_tacticalai.GetUnitsOfTypeFromGroup(enemies, {\"shika\", \"armllt\", \"dca\", \"corlab\", \"corfus\"})"
+									"value": "nota_ner34_tacticalai.GetUnitsOfTypeFromGroup(enemies, {\"shika\", \"armllt\", \"dca\"})"
 								}, {
 									"name": "scriptName",
 									"value": "store"
@@ -1169,7 +1162,7 @@
 									"value": "secondTarget"
 								}, {
 									"name": "value",
-									"value": "nota_ner34_tacticalai.GetUnitsOfTypeFromGroup(enemies, {\"corvipe\"})"
+									"value": "nota_ner34_tacticalai.GetUnitsOfTypeFromGroup(enemies, {\"corvipe\", \"corlab\", \"corfus\"})"
 								}, {
 									"name": "scriptName",
 									"value": "store"
@@ -1350,31 +1343,26 @@
 							} ],
 							"scriptName": "nota_ner34_tacticalai.artilleryAttackNoDeathCheck"
 						}, {
-							"children": [ {
-								"children": [],
-								"id": "wfDu9jEHbQ3zXB3MU8p1JU38jaXIVDyX",
-								"nodeType": "luaCommand",
-								"parameters": [ {
-									"name": "group",
-									"value": "mavs"
-								}, {
-									"name": "position",
-									"value": "targPointPos"
-								}, {
-									"name": "targetDist",
-									"value": "100"
-								}, {
-									"name": "fight",
-									"value": "true"
-								}, {
-									"name": "scriptName",
-									"value": "nota_ner34_tacticalai.moveUnitNoDeathCheck"
-								} ],
-								"scriptName": "nota_ner34_tacticalai.moveUnitNoDeathCheck"
+							"children": [],
+							"id": "wfDu9jEHbQ3zXB3MU8p1JU38jaXIVDyX",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "group",
+								"value": "mavs"
+							}, {
+								"name": "position",
+								"value": "targPointPos"
+							}, {
+								"name": "targetDist",
+								"value": "100"
+							}, {
+								"name": "fight",
+								"value": "true"
+							}, {
+								"name": "scriptName",
+								"value": "nota_ner34_tacticalai.moveUnitNoDeathCheck"
 							} ],
-							"id": "NYhHnncZfF3MRx8U6Kvv6FdrG7jtkELx",
-							"nodeType": "repeat",
-							"parameters": []
+							"scriptName": "nota_ner34_tacticalai.moveUnitNoDeathCheck"
 						}, {
 							"children": [ {
 								"children": [],
